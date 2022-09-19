@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding-top: 2rem;
+}
+
+.calculator-body{
+    background-color: rgb(153, 147, 147);
+    width: 40%;
+    height: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 50px 50px 20px 20px;
+    padding: 2rem;
+}
+
+.display{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(118, 163, 202);
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display p{
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+
+
+.upper-disply{
+    height: 50%;
+}
+
+.lower-disply{
+    height: 50%;
+}
+
+.display p{
+    margin: auto;
+}
+
+
+.button-section{
+   
+    background-color: rgb(175, 136, 136);
+    width: 75%;
+    height: 70%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 16.5%;
+    margin: 0 auto 0 auto;
+    padding: 0.5rem;
+}
+
+.button{
+    background-color:#c4beba;
+    height:100%;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #0e802c;
+    font-size: 2rem;
+        
+}
+
+.button:hover{
+background-color:black;
+color: white;
+}
+
+ #maths-row .button{
+    width: 20%;    
+ }
